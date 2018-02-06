@@ -1,4 +1,3 @@
-
 public class StudentView {
 	private Student student;
 	
@@ -25,5 +24,6 @@ public class StudentView {
 		System.out.println("Student's first name is " + this.student.getFirstName());
 		System.out.println("Student's last name is " + this.student.getLastName());
 		System.out.println("Student's id number is " + this.student.getIdNumber());
+		System.out.println("Student's email is " + this.student.getEmail());
 	}
 }
