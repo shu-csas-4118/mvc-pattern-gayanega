@@ -1,12 +1,13 @@
-
 public class Student {
 	private String firstName;
 	private String lastName;
+	private String email;
 	private int idNumber;
 	
-	public Student(String firstName, String lastName, int idNumber) {
+	public Student(String firstName, String lastName, String email, int idNumber) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.email = email;
 		this.idNumber = idNumber;
 	}
 	
@@ -24,6 +25,14 @@ public class Student {
 	
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+	
+	public String getEmail() {
+		return this.email;
+	}
+	
+	public void setEmail(String email){
+		this.email = email;
 	}
 	
 	public int getIdNumber() {
